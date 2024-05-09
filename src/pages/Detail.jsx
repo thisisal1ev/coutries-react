@@ -19,9 +19,23 @@ const Detail = () => {
           {/* back icon */}
           <div className="mb-10 md:mb-16 lg:mb-20">
             <Link
-              className="inline-flex items-center bg-white px-4 py-2.5 shadow-input rounded-md sm:px-8 dark:bg-lightDark"
+              className="inline-flex items-center bg-white px-4 py-2.5 space-x-2 shadow-input rounded-md sm:px-8 dark:bg-lightDark"
               to="/">
-              <img className="w-5 h-5 mr-2.5" src={back} alt="svg" />
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 1024 1024"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  fill="currentColor"
+                  d="M224 480h640a32 32 0 1 1 0 64H224a32 32 0 0 1 0-64"
+                />
+                <path
+                  fill="currentColor"
+                  d="m237.248 512l265.408 265.344a32 32 0 0 1-45.312 45.312l-288-288a32 32 0 0 1 0-45.312l288-288a32 32 0 1 1 45.312 45.312z"
+                />
+              </svg>
+              &nbsp;
               <span className="text-base leading-5 text-textColor dark:text-white">
                 Back
               </span>
