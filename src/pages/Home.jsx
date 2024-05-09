@@ -70,7 +70,7 @@ const Home = () => {
           <select
             onChange={handleSelectChange}
             defaultValue="DEFAULT"
-            className="px-6 py-5 shadow-input w-52 text-sm text-textColor space-y-2 rounded- bg-white dark:text-white dark:bg-lightDark">
+            className="px-6 py-5 shadow-input w-52 text-sm text-textColor space-y-2 rounded-md bg-white dark:text-white dark:bg-lightDark">
             <option value="DEFAULT" disabled>
               Filter by region
             </option>
